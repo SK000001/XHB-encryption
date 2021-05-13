@@ -39,9 +39,7 @@ def main():
         
     xorMess = encDec.encDec(messDigest, hashDigest)
 
-    print(" \ncode:")
-    print(_code[0])
-    print(" \nxor'd message:")
+    print(" \nenc'd/dec'd message:")
     print(xorMess)
 
 clr()
